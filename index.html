@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Lyrycs</title>
 </head>
 <body>
-    Здарова
-    как дела?
+    <div id="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__upper">
+                    <div class="header__logo">
+                        <img src="images/header/logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="header__lower">
+                    <form method="GET" enctype="multipart/form-data" action="#" class="header__search">
+                        <input type="text" placeholder="Поиск">
+                        <img src="images/header/search.svg" alt="">
+                    </form>
+                    <nav class="header__navigation navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a href="">Новости</a></li>
+                            <li class="navigation__item"><a href="">Чарт</a></li>
+                            <li class="navigation__item"><a href="">Новинки</a></li>
+                            <li class="navigation__item"><a href="">Рецензии</a></li>
+                        </ul>
+                        <a href="" class="navigaion__button">Войти</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
 </body>
 </html>

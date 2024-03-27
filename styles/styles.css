@@ -1,0 +1,65 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+
+
+.header {
+    background-color: #53699E;
+    padding: 0px 10px;
+}
+.header__container {
+    max-width: 1650px;
+    margin: 0 auto;
+    display: grid;
+}
+.header__upper {
+    border-bottom: 4px solid #435480;
+    display: flex;
+    justify-content: center;
+}
+.header__logo img {
+    width: 250px;
+}
+.header__lower {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.header__search {
+    flex-basis: 350px;
+    position: relative;
+}
+
+.header__search img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.header__search input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    column-gap: 60px;
+    row-gap: 10px;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.navigation__list {
+    display: flex;
+    gap: 40px;
+}
+.navigaion__button {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
