@@ -28,6 +28,11 @@
         align-items: center;
         padding: ToEm(40) 0;
     }
+    &__logo {
+        img {
+            width: ToRem(200);
+        }
+    }
     &__search {
         flex: 0 0 ToRem(320);
         display: flex;
